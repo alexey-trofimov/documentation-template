@@ -1,0 +1,919 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!-- Document title -->
+	<title>Шаблон для Документации</title>
+
+	<!-- SEO (optional) -->
+	<meta name="description" content="Это бесплатный шаблон для документации. Этот шаблон построен на Bootstrap, он полностью адаптивен и включает в себя иконки от Font Awesome и подсветку кода от Prism.">
+	<meta name="author" content="Алексей Трофимов">
+	<meta name="robots" content="index, follow"><!-- noindex, nofollow -->
+	<!-- Open Graph: https://ogp.me/ (optional) -->
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Шаблон для Документации">
+	<meta property="og:description" content="Это бесплатный шаблон для документации. Этот шаблон построен на Bootstrap, он полностью адаптивен и включает в себя иконки от Font Awesome и подсветку кода от Prism.">
+	<meta property="og:url" content="https://demo.minimalweb.net/documentation-template/documentation-russian-language.html"><!-- * Note: Replace with your URL. -->
+	<meta property="og:site_name" content="Шаблон для Документации">
+	<meta property="og:image" content="https://demo.minimalweb.net/documentation-template/assets/img/meta-og-doc-template.jpg"><!-- * Note: Replace with your URL. -->
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<!-- Twitter cards: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started (optional) -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Шаблон для Документации">
+	<meta name="twitter:description" content="Это бесплатный шаблон для документации. Этот шаблон построен на Bootstrap, он полностью адаптивен и включает в себя иконки от Font Awesome и подсветку кода от Prism.">
+	<meta name="twitter:site" content="https://demo.minimalweb.net/documentation-template/documentation-russian-language.html"><!-- * Note: Replace with your URL. -->
+	<meta name="twitter:image" content="https://demo.minimalweb.net/documentation-template/assets/img/meta-og-doc-template.jpg"><!-- * Note: Replace with your URL. -->
+	<meta name="twitter:creator" content=""><!-- * Note: Add your username (@YourUsername) -->
+
+	<!-- Website icons (optional) -->
+	<link rel="icon" href="assets/img/doc-favicon-32-32.png" sizes="32x32">
+	<link rel="icon" href="assets/img/doc-favicon-192-192.png" sizes="192x192">
+	<link rel="apple-touch-icon-precomposed" href="assets/img/doc-favicon-180-180.png">
+	<meta name="msapplication-TileImage" content="assets/img/doc-favicon-270-270.png">
+
+	<!-- Google fonts ( https://fonts.google.com/specimen/Open+Sans ) -->
+	<!-- Preconnect -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- Open Sans: 300, 300 Italic, 400, 400 Italic, 600, 600 Italic, 700, 700 Italic; CSS: "font-family: 'Open Sans', sans-serif;" -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+	<!-- CSS files -->
+	<link href="assets/css/bootstrap.min.css?ver=3.4.1" rel="stylesheet">
+	<link href="assets/css/bootstrap-theme.min.css?ver=3.4.1" rel="stylesheet">
+	<link href="assets/css/ie10-viewport-bug-workaround.css?ver=3.4.1" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css?ver=4.7.0" rel="stylesheet">
+	<link href="assets/plugins/prettyPhoto/css/prettyPhoto.css?ver=3.1.6" rel="stylesheet">
+	<link href="assets/css/prism.css?ver=1.29.0" rel="stylesheet">
+	<link href="assets/css/documentation.css?ver=1.0.0" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.min.js?ver=3.7.3"></script>
+		<script src="assets/js/respond.min.js?ver=1.4.2"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+<!-- header -->
+<header id="docs-header">
+	<div class="container">
+		<div id="top" class="docs-header-container"><!-- * The #top identifier (id="top") is used for the "Back to top" link -->
+
+			<!-- top nav -->
+			<nav class="docs-header-nav hidden-sm hidden-xs">
+				<ul class="docs-header-navigation list-unstyled">
+					<!-- template name -->
+					<li class="template-name">
+						<a href="#template-url" title="Название Проекта">Название Проекта</a>
+					</li>
+					<!-- end: template name -->
+					<!-- support -->
+					<li>
+						<a href="#support-url" title="Поддержка">Поддержка</a>
+					</li>
+					<!-- end: support -->
+					<!-- contact -->
+					<li>
+						<a href="#url-to-your-contact-form" title="Обратная Связь">Обратная Связь</a>
+					</li>
+					<!-- end: contact -->
+					<!-- portfolio -->
+					<li>
+						<a href="https://github.com/alexey-trofimov" target="_blank" rel="noopener noreferrer" title="Портфолио (Бесплатные Проекты на GitHub)">Портфолио</a>
+					</li>
+					<!-- end: portfolio -->
+					<!-- my site -->
+					<li>
+						<a href="https://minimalweb.net/" target="_blank" rel="noopener noreferrer" title="Minimalweb.net">Minimalweb.net</a>
+					</li>
+					<!-- end: my site -->
+					<!-- link to English version -->
+					<li>
+						<a href="documentation.html" title="Demonstration of documentation in English">English</a>
+					</li>
+					<!-- end: link to English version -->
+					<!-- * links to social profiles: -->
+					<!-- VK -->
+					<li class="social-link first-social-link"><!-- * The "first-social-link" class is required -->
+						<a href="https://vk.com/" target="_blank" rel="noopener noreferrer" title="Страница ВКонтакте">
+							<i class="fa fa-vk"></i>
+						</a>
+					</li>
+					<!-- end: VK -->
+					<!-- Odnoklassniki -->
+					<li class="social-link">
+						<a href="https://ok.ru/" target="_blank" rel="noopener noreferrer" title="Страница в Одноклассниках">
+							<i class="fa fa-odnoklassniki"></i>
+						</a>
+					</li>
+					<!-- end: Odnoklassniki -->
+					<!-- GitHub -->
+					<li class="social-link">
+						<a href="https://github.com/alexey-trofimov" target="_blank" rel="noopener noreferrer" title="GitHub: Alexey Trofimov">
+							<i class="fa fa-github"></i>
+						</a>
+					</li>
+					<!-- end: GitHub -->
+					<!-- ... * you can add more social icons here; link to icons: https://fontawesome.com/v4.7.0/icons/#brand -->
+				</ul>
+			</nav>
+			<!-- end: top nav -->
+
+			<!-- responsive nav: collapse button and template name -->
+			<!-- * this section appears only on small screens (window width less than 992 pixels) -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle responsive-nav-collapse-btn" data-toggle="collapse" data-target="#responsive-nav-collapse"><!-- * data-target = mobile navigation id -->
+					<i class="fa fa-bars"></i>
+				</button>
+				<a href="#template-url" class="navbar-brand hidden-md hidden-lg">Название Проекта</a><!-- * template name here -->
+			</div>
+			<!-- end: responsive nav: collapse button and template name -->
+
+			<!-- responsive nav -->
+			<!-- * this navigation appears only on small screens (window width less than 992 pixels) -->
+			<!-- * this navigation is designed for mobile devices (mobile navigation) -->
+			<div id="responsive-nav-collapse" class="collapse navbar-collapse">
+				<nav>
+					<ul class="responsive-nav list-unstyled hidden-md hidden-lg">
+						<li><a href="#section-with-text">Раздел с текстом</a></li>
+						<li><a href="#section-with-image-and-text">Раздел с изображением и текстом</a></li>
+						<li><a href="#section-popup-image">Всплывающее изображение (prettyPhoto)</a></li>
+						<li><a href="#section-with-several-images">Раздел с несколькими изображениями</a></li>
+						<li><a href="#section-text-elements">Текстовые элементы</a></li>
+						<li><a href="#section-code-highlighting">Подсветка кода (Prism)</a></li>
+						<li><a href="#section-credits">Благодарности</a></li>
+						<!-- * Here you can set a link to download or purchase your template: -->
+						<li><a href="#your-url">Купить или Скачать</a></li>
+						<!-- link to English version: -->
+						<li><a href="documentation.html">Demonstration in English</a></li>
+					</ul>
+				</nav>
+			</div>
+			<!-- end: responsive nav -->
+
+		</div>
+	</div>
+</header>
+<!-- end: header -->
+
+<!-- documentation heading -->
+<section id="docs-heading-section">
+	<div class="container">
+		<div class="docs-heading-container">
+
+			<!-- title for documentation: -->
+			<h1>Название Проекта - Документация</h1><!-- * template name here -->
+
+			<!-- short description: -->
+			<p>Это HTML-шаблон для документации. Вы можете использовать этот шаблон для создания документаций к своим WordPress темам (<em>или к темам для любой другой CMS</em>) или к вашим HTML-шаблонам. Пример использования этой документации в реальном проекте доступен <a href="http://documentation.birdwp.com/wp-orin/" target="_blank" rel="noopener noreferrer" title="WordPress Тема Orin - Документация" class="fw-600">здесь</a>. <em class="fw-600">Заметка</em>: В этой демонстрации я использую <a href="https://ru.wikipedia.org/wiki/Lorem_ipsum" target="_blank" rel="noopener noreferrer" title="Текст-Заполнитель. Материал из Википедии - свободной энциклопедии." class="fw-600">Текст-Заполнитель</a> (<em>текст Lorem Ipsum</em>). Демонстрация на <a href="documentation.html" title="Демонстрация документации на Английском языке" class="fw-600">Английском</a>.</p>
+
+			<!-- optional information: -->
+			<ul class="list-unstyled">
+				<li>Торговая Площадка: <a href="#url" title="Название Торговой Площадки"><strong>Название</strong></a></li>
+				<li>Автор: <a href="#url" title="Ваше Имя"><strong>Ваше Имя</strong></a></li>
+				<li>Email: <a href="mailto:youremail@yourdomain.com" title="Связаться Со Мной"><strong>youremail@yourdomain.ru</strong></a></li>
+			</ul>
+
+		</div>
+	</div>
+</section>
+<!-- end: documentation heading -->
+
+<!-- content -->
+<section id="docs-content-section">
+	<div class="container">
+		<div class="docs-content-container">
+			<div class="row">
+
+				<!-- sidebar nav -->
+				<div class="col-md-3" role="complementary">
+					<nav id="sidebar-scrollspy-nav" class="hidden-sm hidden-xs">
+						<ul id="sidebar-nav" class="nav sidebar-navigation list-unstyled">
+							<li><a href="#section-with-text">Раздел с текстом</a></li>
+							<li><a href="#section-with-image-and-text">Раздел с изображением и текстом</a></li>
+							<li><a href="#section-popup-image">Всплывающее изображение (prettyPhoto)</a></li>
+							<li><a href="#section-with-several-images">Раздел с несколькими изображениями</a></li>
+							<li><a href="#section-text-elements">Текстовые элементы</a></li>
+							<li><a href="#section-code-highlighting">Подсветка кода (Prism)</a></li>
+							<li><a href="#section-credits">Благодарности</a></li>
+							<!-- Back to top -->
+							<li class="nav-item-back-to-top"><a href="#top">Вернуться к началу</a></li>
+							<!-- * Here you can set a link to download or purchase your template: -->
+							<li class="nav-item-buy-template"><a href="#your-url">Купить или Скачать</a></li>
+						</ul>
+					</nav>
+				</div>
+				<!-- end: sidebar nav -->
+
+				<!-- documentation content -->
+				<div class="col-md-9" role="main">
+					<div class="content">
+
+						<!-- ================= MAIN CONTENT STARTS HERE ================= -->
+
+						<!-- * Each block must have an identifier that will be used in navigation -->
+
+						<!-- section with text -->
+						<div id="section-with-text"><!-- * ID for navigation -->
+
+							<!-- content section -->
+							<div class="content-section">
+								<!-- title: -->
+								<h2 class="content-section-heading ta-center">Раздел с текстом</h2>
+								<!-- paragraphs: -->
+								<p><strong>Обычный заполняющий текст без смысла</strong>. Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, и никогда не был таким большим художником, как в эти минуты.</p>
+								<p>Когда от милой моей долины поднимается пар, и полдневное солнце стоит над непроницаемой чащей темного леса, и лишь редкий луч проскальзывает в его святая святых, а я лежу в высокой траве у быстрого ручья и, прильнув к земле, вижу тысячи всевозможных пылинок и чувствую, как близок моему сердцу крошечный мирок, что снует между стебельками, наблюдаю эти неисчислимые, непостижимые разновидности червяков и мошек, и чувствую близость всемогущего, создавшего нас по своему подобию, веяние вселюбящего, судившего нам парить в вечном блаженстве, когда взор мой туманится, и все вокруг меня и небо надо мной запечатлены в моей душе, точно образ возлюбленной, - тогда, дорогой друг, меня часто томит мысль: "Ах! Как бы выразить, как бы вдохнуть в рисунок то, что так полно, так трепетно живет во мне, запечатлеть отражение моей души, как душа моя - отражение предвечного Бога!" Друг мой... Но нет! Мне не под силу это, меня подавляет величие этих явлений.</p>
+							</div>
+							<!-- end: content section -->
+
+						</div>
+						<!-- end: section with text -->
+
+						<!-- section with image and text -->
+						<div id="section-with-image-and-text"><!-- * ID for navigation -->
+
+							<!-- content section -->
+							<div class="content-section">
+								<!-- title: -->
+								<h2 class="content-section-heading ta-center">Раздел с изображением и текстом</h2>
+								<!-- link to the image: -->
+								<div class="screenshot-link">
+									<a href="assets/img/screenshots/image-1355x900px.jpg" target="_blank" rel="noopener noreferrer"><i class="fa fa-link"></i>Изображение: <span>image-1355x900px.jpg</span></a>
+								</div>
+								<!-- image: -->
+								<figure class="content-section-image">
+									<img src="assets/img/screenshots/image-1355x900px.jpg" alt="Изображение 1355x900px">
+								</figure>
+								<!-- paragraph: -->
+								<p>Когда от милой моей долины поднимается пар, и полдневное солнце стоит над непроницаемой чащей темного леса, и лишь редкий луч проскальзывает в его святая святых, а я лежу в высокой траве у быстрого ручья и, прильнув к земле, вижу тысячи всевозможных пылинок и чувствую, как близок моему сердцу крошечный мирок, что снует между стебельками, наблюдаю эти неисчислимые, непостижимые разновидности червяков и мошек, и чувствую близость всемогущего, создавшего нас по своему подобию, веяние вселюбящего, судившего нам парить в вечном блаженстве, когда взор мой туманится, и все вокруг меня и небо надо мной запечатлены в моей душе, точно образ возлюбленной, - тогда, дорогой друг, меня часто томит мысль: "Ах! Как бы выразить, как бы вдохнуть в рисунок то, что так полно, так трепетно живет во мне, запечатлеть отражение моей души, как душа моя - отражение предвечного Бога!" Друг мой... Но нет! Мне не под силу это, меня подавляет величие этих явлений.</p>
+							</div>
+							<!-- end: content section -->
+
+						</div>
+						<!-- end: section with image and text -->
+
+						<!-- popup image (prettyPhoto) -->
+						<div id="section-popup-image"><!-- * ID for navigation -->
+
+							<!-- content section -->
+							<div class="content-section">
+								<!-- title: -->
+								<h2 class="content-section-heading ta-center">Всплывающее изображение (prettyPhoto)</h2>
+								<!-- link to the image: -->
+								<div class="screenshot-link">
+									<a href="assets/img/screenshots/image-1355x900px.jpg" target="_blank" rel="noopener noreferrer"><i class="fa fa-link"></i>Изображение: <span>image-1355x900px.jpg</span></a>
+								</div>
+								<!-- popup image (prettyPhoto): -->
+								<figure class="content-section-image">
+									<a href="assets/img/screenshots/image-1355x900px.jpg" rel="prettyPhoto">
+										<img src="assets/img/screenshots/image-1355x900px.jpg" alt="Изображение 1355x900px">
+										<div class="img-bg-overlay transition-3"></div>
+										<span class="expand-icon transition-3">
+											<i class="fa fa-search-plus"></i>
+										</span>
+									</a>
+								</figure>
+								<!-- paragraph: -->
+								<p>Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, и никогда не был таким большим художником, как в эти минуты.</p>
+							</div>
+							<!-- end: content section -->
+
+						</div>
+						<!-- end: popup image (prettyPhoto) -->
+
+						<!-- section with several images -->
+						<div id="section-with-several-images"><!-- * ID for navigation -->
+
+							<!-- content section -->
+							<div class="content-section">
+								<!-- title: -->
+								<h2 class="content-section-heading ta-center">Раздел с несколькими изображениями</h2>
+								<!-- paragraph: -->
+								<p class="mb-20">Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, и никогда не был таким большим художником, как в эти минуты.</p>
+								<!-- link to the image: -->
+								<div class="screenshot-link">
+									<a href="assets/img/screenshots/image-1355x900px.jpg" target="_blank" rel="noopener noreferrer"><i class="fa fa-link"></i>Изображение: <span>image-1355x900px.jpg</span></a>
+								</div>
+								<!-- popup image (prettyPhoto): -->
+								<figure class="content-section-image">
+									<a href="assets/img/screenshots/image-1355x900px.jpg" rel="prettyPhoto">
+										<img src="assets/img/screenshots/image-1355x900px.jpg" alt="Изображение 1355x900px">
+										<div class="img-bg-overlay transition-3"></div>
+										<span class="expand-icon transition-3">
+											<i class="fa fa-search-plus"></i>
+										</span>
+									</a>
+								</figure>
+								<!-- paragraph: -->
+								<p class="mb-20">Когда от милой моей долины поднимается пар, и полдневное солнце стоит над непроницаемой чащей темного леса, и лишь редкий луч проскальзывает в его святая святых, а я лежу в высокой траве у быстрого ручья и, прильнув к земле, вижу тысячи всевозможных пылинок и чувствую, как близок моему сердцу крошечный мирок, что снует между стебельками, наблюдаю эти неисчислимые, непостижимые разновидности червяков и мошек, и чувствую близость всемогущего, создавшего нас по своему подобию, веяние вселюбящего, судившего нам парить в вечном блаженстве, когда взор мой туманится, и все вокруг меня и небо надо мной запечатлены в моей душе, точно образ возлюбленной, - тогда, дорогой друг, меня часто томит мысль: "Ах! Как бы выразить, как бы вдохнуть в рисунок то, что так полно, так трепетно живет во мне, запечатлеть отражение моей души, как душа моя - отражение предвечного Бога!" Друг мой... Но нет! Мне не под силу это, меня подавляет величие этих явлений.</p>
+								<!-- link to the image: -->
+								<div class="screenshot-link">
+									<a href="assets/img/screenshots/image-1355x900px.jpg" target="_blank" rel="noopener noreferrer"><i class="fa fa-link"></i>Изображение: <span>image-1355x900px.jpg</span></a>
+								</div>
+								<!-- popup image (prettyPhoto): -->
+								<figure class="content-section-image mb-35">
+									<a href="assets/img/screenshots/image-1355x900px.jpg" rel="prettyPhoto">
+										<img src="assets/img/screenshots/image-1355x900px.jpg" alt="Изображение 1355x900px">
+										<div class="img-bg-overlay transition-3"></div>
+										<span class="expand-icon transition-3">
+											<i class="fa fa-search-plus"></i>
+										</span>
+									</a>
+								</figure>
+								<!-- h3: -->
+								<h3>Заголовок H3</h3>
+								<!-- paragraph: -->
+								<p>Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, и никогда не был таким большим художником, как в эти минуты.</p>
+							</div>
+							<!-- end: content section -->
+
+						</div>
+						<!-- end: section with several images -->
+
+						<!-- text elements -->
+						<div id="section-text-elements"><!-- * ID for navigation -->
+
+							<!-- content section -->
+							<div class="content-section">
+								<!-- title: -->
+								<h2 class="content-section-heading ta-center">Текстовые элементы</h2>
+
+								<!-- h1..h6 headings: -->
+								<h3>Заголовки (H1..H6)</h3>
+								<!-- h1: -->
+								<!-- <h1>Заголовок H1</h1> --><!-- * it is recommended not to use this element (h1) because this page already has a first-order heading; use the "h1" class instead: -->
+								<h2 class="h1">Заголовок H1</h2>
+								<!-- h2: -->
+								<h2>Заголовок H2</h2>
+								<!-- h3: -->
+								<h3>Заголовок H3</h3>
+								<!-- h4: -->
+								<h4>Заголовок H4</h4>
+								<!-- h5: -->
+								<h5>Заголовок H5</h5>
+								<!-- h6: -->
+								<h6>Заголовок H6</h6>
+
+								<!-- h3: -->
+								<h3>Параграф</h3>
+								<!-- paragraph: -->
+								<p>Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, и никогда не был таким большим художником, как в эти минуты.</p>
+
+								<!-- h3: -->
+								<h3>Списки (ul, ol)</h3>
+								<!-- h4: -->
+								<h4>Неупорядоченный список (ul.doc-list)</h4>
+								<!-- ul: -->
+								<ul class="doc-list">
+									<li>Душа моя озарена неземной радостью,</li>
+									<li>Как эти чудесные весенние утра,</li>
+									<li>Которыми я наслаждаюсь от всего сердца.</li>
+									<li>Я совсем один и блаженствую в здешнем краю,</li>
+									<li>Словно созданном для таких, как я.</li>
+									<li>Я так счастлив, мой друг, так упоен ощущением покоя,</li>
+									<li>Что искусство мое страдает от этого...</li>
+								</ul>
+								<!-- h4: -->
+								<h4>Упорядоченный список (ol.doc-list)</h4>
+								<!-- ol: -->
+								<ol class="doc-list">
+									<li>Душа моя озарена неземной радостью,</li>
+									<li>Как эти чудесные весенние утра,</li>
+									<li>Которыми я наслаждаюсь от всего сердца.</li>
+									<li>Я совсем один и блаженствую в здешнем краю,</li>
+									<li>Словно созданном для таких, как я.</li>
+									<li>Я так счастлив, мой друг, так упоен ощущением покоя,</li>
+									<li>Что искусство мое страдает от этого...</li>
+								</ol>
+								<!-- h4: -->
+								<h4>Смешанный список №1 (ol.doc-list > ul > ol)</h4>
+								<!-- ol - ul - ol: -->
+								<ol class="doc-list">
+									<li>Пронумерованный пункт списка</li>
+									<li>Пронумерованный пункт списка
+										<ul>
+											<li><strong>Непронумерованный пункт списка</strong></li>
+											<li><strong>Непронумерованный пункт списка</strong>
+												<ol>
+													<li>Пронумерованный пункт списка</li>
+													<li>Пронумерованный пункт списка</li>
+												</ol>
+											</li>
+										</ul>
+									</li>
+									<li>Пронумерованный пункт списка</li>
+									<li>Пронумерованный пункт списка</li>
+								</ol>
+								<!-- h4: -->
+								<h4>Смешанный список №2 (ul.doc-list > ol > ul)</h4>
+								<!-- ul - ol - ul: -->
+								<ul class="doc-list">
+									<li>Непронумерованный пункт списка</li>
+									<li>Непронумерованный пункт списка
+										<ol>
+											<li>Пронумерованный пункт списка</li>
+											<li>Пронумерованный пункт списка
+												<ul>
+													<li>Непронумерованный пункт списка</li>
+													<li>Непронумерованный пункт списка</li>
+												</ul>
+											</li>
+										</ol>
+									</li>
+									<li>Непронумерованный пункт списка</li>
+									<li>Непронумерованный пункт списка</li>
+								</ul>
+
+								<!-- h3: -->
+								<h3>Список-группа</h3>
+								<!-- h4: -->
+								<h4>Стандартный пример</h4>
+								<!-- source link: -->
+								<div class="source-link">
+									<span>* Ссылка на источник:</span><a href="https://getbootstrap.com/docs/3.4/components/#list-group" target="_blank" rel="noopener noreferrer">https://getbootstrap.com/docs/3.4/components/#list-group</a>
+								</div>
+								<!-- list group: -->
+								<ul class="list-group mb-25">
+									<li class="list-group-item">Душа моя озарена неземной радостью,</li>
+									<li class="list-group-item">Как эти чудесные весенние утра,</li>
+									<li class="list-group-item">Которыми я наслаждаюсь от всего сердца.</li>
+									<li class="list-group-item">Я совсем один и блаженствую в здешнем краю,</li>
+									<li class="list-group-item">Словно созданном для таких, как я.</li>
+								</ul>
+								<!-- h4: -->
+								<h4>Контекстные классы</h4>
+								<!-- source link: -->
+								<div class="source-link">
+									<span>* Ссылка на источник:</span><a href="https://getbootstrap.com/docs/3.4/components/#list-group-contextual-classes" target="_blank" rel="noopener noreferrer">https://getbootstrap.com/docs/3.4/components/#list-group-contextual-classes</a>
+								</div>
+								<!-- list group (contextual classes): -->
+								<ul class="list-group mb-25">
+									<li class="list-group-item list-group-item-success"><strong><em>Успех</em></strong>. Душа моя озарена неземной радостью,</li>
+									<li class="list-group-item list-group-item-info"><strong><em>Информация</em></strong>. Как эти чудесные весенние утра,</li>
+									<li class="list-group-item list-group-item-warning"><strong><em>Предупреждение</em></strong>. Которыми я наслаждаюсь от всего сердца.</li>
+									<li class="list-group-item list-group-item-danger"><strong><em>Опасность</em></strong>. Я совсем один и блаженствую в здешнем краю...</li>
+								</ul>
+
+								<!-- h3: -->
+								<h3>Отзывчивые (/адаптивные) таблицы</h3>
+								<!-- source link: -->
+								<div class="source-link">
+									<span>* Ссылка на источник:</span><a href="https://getbootstrap.com/docs/3.4/css/#tables" target="_blank" rel="noopener noreferrer">https://getbootstrap.com/docs/3.4/css/#tables</a>
+								</div>
+								<!-- h4: -->
+								<h4>Стиль №1</h4>
+								<!-- responsive table: -->
+								<div class="table-responsive mb-25">
+									<table class="table table-bordered">
+										<thead>
+											<tr>
+												<th>#</th>
+												<th>Имя</th>
+												<th>Фамилия</th>
+												<th>Псевдоним</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th scope="row">1</th>
+												<td>Василий</td>
+												<td>Герасимов</td>
+												<td>@vasiliy</td>
+											</tr>
+											<tr>
+												<th scope="row">2</th>
+												<td>Александр</td>
+												<td>Смирнов</td>
+												<td>@smirnov</td>
+											</tr>
+											<tr>
+												<th scope="row">3</th>
+												<td>Ярослав</td>
+												<td>Попов</td>
+												<td>@popov</td>
+											</tr>
+										</tbody>
+									</table>
+								</div><!-- /.table-responsive -->
+								<!-- h4: -->
+								<h4>Стиль №2</h4>
+								<!-- responsive table: -->
+								<div class="table-responsive mb-25">
+									<table class="table table-bordered table-striped table-hover">
+										<thead>
+											<tr>
+												<th>#</th>
+												<th>Имя</th>
+												<th>Фамилия</th>
+												<th>Псевдоним</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th scope="row">1</th>
+												<td>Василий</td>
+												<td>Герасимов</td>
+												<td>@vasiliy</td>
+											</tr>
+											<tr>
+												<th scope="row">2</th>
+												<td>Александр</td>
+												<td>Смирнов</td>
+												<td>@smirnov</td>
+											</tr>
+											<tr>
+												<th scope="row">3</th>
+												<td>Ярослав</td>
+												<td>Попов</td>
+												<td>@popov</td>
+											</tr>
+										</tbody>
+									</table>
+								</div><!-- /.table-responsive -->
+
+								<!-- h3: -->
+								<h3>Оповещения и уведомления</h3>
+								<!-- source link: -->
+								<div class="source-link">
+									<span>* Ссылка на источник:</span><a href="https://getbootstrap.com/docs/3.4/components/#alerts" target="_blank" rel="noopener noreferrer">https://getbootstrap.com/docs/3.4/components/#alerts</a>
+								</div>
+								<!-- success: -->
+								<div class="alert alert-success" role="alert">
+									<strong><em>Успех</em></strong>. Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого.
+								</div>
+								<!-- info: -->
+								<div class="alert alert-info" role="alert">
+									<strong><em>Информация</em></strong>. Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого.
+								</div>
+								<!-- warning: -->
+								<div class="alert alert-warning" role="alert">
+									<strong><em>Предупреждение</em></strong>. Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого.
+								</div>
+								<!-- danger: -->
+								<div class="alert alert-danger mb-25" role="alert">
+									<strong><em>Опасность</em></strong>. Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого.
+								</div>
+
+								<!-- h3: -->
+								<h3>Индикаторы выполнения</h3>
+								<!-- source link: -->
+								<div class="source-link">
+									<span>* Ссылка на источник:</span><a href="https://getbootstrap.com/docs/3.4/components/#progress" target="_blank" rel="noopener noreferrer">https://getbootstrap.com/docs/3.4/components/#progress</a>
+								</div>
+								<!-- h4: -->
+								<h4>Индикатор выполнения по умолчанию</h4>
+								<!-- default progress bar: -->
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+										<span class="sr-only">60% Выполнено</span>
+									</div>
+								</div>
+								<!-- h4: -->
+								<h4>Индикатор выполнения с прогрессом</h4>
+								<!-- progress bar with label: -->
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+										60%
+									</div>
+								</div>
+								<!-- h4: -->
+								<h4>Больше примеров</h4>
+								<!-- progress bar 1: -->
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+										<span class="sr-only">40% Выполнено</span>
+									</div>
+								</div>
+								<!-- progress bar 2: -->
+								<div class="progress">
+									<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+										<span class="sr-only">20% Выполнено</span>
+									</div>
+								</div>
+								<!-- progress bar 3: -->
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+										<span class="sr-only">60% Выполнено</span>
+									</div>
+								</div>
+								<!-- progress bar 4: -->
+								<div class="progress mb-25">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+										<span class="sr-only">80% Выполнено</span>
+									</div>
+								</div>
+
+								<!-- h3: -->
+								<h3>Панель с заголовком</h3>
+								<!-- source link: -->
+								<div class="source-link">
+									<span>* Ссылка на источник:</span><a href="https://getbootstrap.com/docs/3.4/components/#panels" target="_blank" rel="noopener noreferrer">https://getbootstrap.com/docs/3.4/components/#panels</a>
+								</div>
+								<!-- panel with heading: -->
+								<div class="panel panel-default mb-25">
+									<div class="panel-heading">
+										<h3 class="panel-title">Название панели (Заголовок)</h3>
+									</div>
+									<div class="panel-body">
+										Содержание панели. Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, и никогда не был таким большим художником, как в эти минуты.
+									</div>
+								</div>
+
+								<!-- h3: -->
+								<h3 class="mb-25">Фрагмент кода (&lt;pre&gt; html тег)</h3>
+								<!-- pre: -->
+								<pre class="mb-5">
+/* body */
+body {
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 1.2;
+	color: #4d5155;
+}</pre>
+
+							</div>
+							<!-- end: content section -->
+
+						</div>
+						<!-- end: text elements -->
+
+						<!-- code highlighting (Prism) -->
+						<div id="section-code-highlighting"><!-- * ID for navigation -->
+
+							<!-- content section -->
+							<div class="content-section">
+								<!-- title: -->
+								<h2 class="content-section-heading ta-center">Подсветка кода (Prism)</h2>
+								<!-- paragraph: -->
+								<p>Для подсветки кода в этой документации используется библиотека <strong>Prism</strong>. Ссылка: <a href="https://prismjs.com/" target="_blank" rel="noopener noreferrer" class="fw-600">https://prismjs.com/</a>. Инструкции по использованию: <a href="https://prismjs.com/index.html#basic-usage" target="_blank" rel="noopener noreferrer" class="fw-600">https://prismjs.com/index.html#basic-usage</a>.</p>
+								<!-- ul: -->
+								<ul class="doc-list">
+									<li><strong>Тема (или цветовая схема Prism)</strong>: Default (тема по умолчанию, светлая тема);</li>
+									<li><strong>Поддерживаемые языки</strong>: Markup + HTML + XML + SVG + MathML + SSML + Atom + RSS, CSS, C-like, JavaScript, .ignore + .gitignore + .hgignore + .npmignore, JSON + Web App Manifest, Markdown, Markup templating, PHP, SQL (<em>Это список выбранных языков на странице скачивания PrismJS</em>);</li>
+									<li><strong>Подключённые плагины</strong>: Line Highlight (Подсветка строки), Line Numbers (Нумерация строк), Toolbar (Панель инструментов; Плагин нужен для работы кнопки "Копировать код"), Copy to Clipboard Button (Кнопка "Копировать код") (<em>Это список выбранных плагинов на странице скачивания PrismJS</em>).</li>
+								</ul>
+								<!-- paragraph: -->
+								<p>Если вам нужна поддержка большего количества языков, или вы хотите использовать другую тему для подсветки кода (например, тёмную тему), то вы всегда можете выбрать нужные вам языки и тему на странице скачивания Prism здесь: <a href="https://prismjs.com/download.html" target="_blank" rel="noopener noreferrer" class="fw-600">https://prismjs.com/download.html</a>. После скачивания вашей версии библиотеки Prism (это файлы <strong>prism.css</strong> и <strong>prism.js</strong>), вам просто нужно заменить файлы Prism документации вашими новыми файлами (расположение файлов для замены в документации: <strong>/assets/css/prism.css</strong> и <strong>/assets/js/prism.js</strong>).</p>
+								<!-- * simple markup example: -->
+								<!-- <pre><code class="language-css">p { color: red }</code></pre> -->
+								<!-- h3: -->
+								<h3 class="mb-25">Пример HTML разметки (<em>с нумерацией строк</em>)</h3>
+								<!-- html markup: -->
+								<!-- * do not forget to replace the "<" sign with its code -->
+								<pre class="mb-25 line-numbers"><code class="language-html">&lt;!doctype html>
+&lt;html lang="ru">
+&lt;head>
+	&lt;!-- Required meta tags -->
+	&lt;meta charset="utf-8">
+	&lt;meta http-equiv="X-UA-Compatible" content="IE=edge">
+	&lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	&lt;!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	&lt;!-- Author and icon -->
+	&lt;meta name="author" content="Алексей Трофимов">
+	&lt;link rel="icon" href="assets/img/favicon.png">
+
+	&lt;!-- Document title -->
+	&lt;title>Шаблон Документации&lt;/title>
+
+	&lt;!-- Google font: Open Sans ( link: https://fonts.google.com/specimen/Open+Sans ) -->
+	&lt;link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+	&lt;!-- CSS files -->
+	&lt;link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	&lt;link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+	&lt;link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	&lt;link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	&lt;link href="assets/plugins/prettyPhoto/css/prettyPhoto.css" rel="stylesheet">
+	&lt;link href="assets/css/prism.css" rel="stylesheet">
+	&lt;link href="assets/css/documentation.css" rel="stylesheet">
+
+	&lt;!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	&lt;!--[if lt IE 9]>
+		&lt;script src="assets/js/html5shiv.min.js">&lt;/script>
+		&lt;script src="assets/js/respond.min.js">&lt;/script>
+	&lt;![endif]-->
+&lt;/head>
+&lt;body>
+	&lt;!-- header -->
+	&lt;header id="docs-header">
+		&lt;div class="container">
+			...
+			...
+		&lt;/div>
+	&lt;/header>
+	&lt;!-- end: header -->
+	...
+	...
+	&lt;!-- footer -->
+	&lt;footer id="docs-footer" role="contentinfo">
+		&lt;div class="container">
+			&lt;div class="docs-footer-container">
+				&lt;p>Текст подвала сайта&lt;/p>
+			&lt;/div>
+		&lt;/div>
+	&lt;/footer>
+	&lt;!-- end: footer -->
+
+	&lt;!-- JS files
+	================================================== -->
+	&lt;!-- Placed at the end of the document so the pages load faster -->
+	&lt;script src="assets/js/jquery.min.js">&lt;/script>
+	&lt;script src="assets/js/bootstrap.min.js">&lt;/script>
+	&lt;script src="assets/js/ie10-viewport-bug-workaround.js">&lt;/script>
+	&lt;script src="assets/plugins/prettyPhoto/js/jquery.prettyPhoto.js">&lt;/script>
+	&lt;script src="assets/js/prism.js">&lt;/script>
+	&lt;script src="assets/js/documentation.js">&lt;/script>
+&lt;/body>
+&lt;/html></code></pre>
+
+								<!-- h3: -->
+								<h3 class="mb-25">Пример таблицы стилей CSS (<em>без нумерации строк</em>)</h3>
+								<!-- css code: -->
+								<pre class="mb-25"><code class="language-css">/**
+ * 2.0 Top navigation (Header)
+ * -------------------------------------------------------------
+ */
+
+#docs-header {
+	background-color: #428bca;
+	min-height: 40px;
+	box-shadow: inset 0 -2px 5px rgba(0,0,0,0.1);
+}
+.docs-header-container {
+	text-align: center;
+}
+
+/* top nav */
+.docs-header-navigation {
+	margin: 0;
+	padding: 0;
+}
+.docs-header-navigation li {
+	display: inline-block;
+}
+.docs-header-navigation li a {
+	display: inline-block;
+	line-height: 40px;
+	padding: 0 15px;
+	font-size: 13px;
+	font-weight: 400;
+	color: #cdddeb;
+	text-decoration: none;
+}
+.docs-header-navigation li a:hover {
+	color: #ffffff;
+}
+.docs-header-navigation li.first-social-link {
+	margin-left: 30px;
+}
+.docs-header-navigation li.social-link a {
+	font-size: 14px;
+	padding: 0 10px;
+}
+
+/* template name */
+.docs-header-navigation li.template-name {
+	margin-right: 25px;
+}
+.docs-header-navigation li.template-name a {
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+}</code></pre>
+
+								<!-- h3: -->
+								<h3 class="mb-25">Пример подсветки JavaScript кода (<em>с нумерацией строк</em>)</h3>
+								<!-- JavaScript code: -->
+								<pre class="mb-5 line-numbers"><code class="language-javascript">/**
+ * documentation.js
+ */
+
+( function( $ ) {
+	'use strict';
+	$( document ).ready( function() {
+
+		/**
+		 * Scrollspy
+		 * -------------------------------------------------------------
+		 */
+
+		$( 'body' ).scrollspy( {
+			target: '#sidebar-scrollspy-nav',
+			offset: 55,
+		} );
+
+
+		/**
+		 * Affix
+		 * -------------------------------------------------------------
+		 */
+
+		$( '#sidebar-nav' ).affix( {
+			offset: {
+				top: function() {
+					return ( this.top = $( '#docs-header' ).outerHeight( true ) + $( '#docs-heading-section' ).outerHeight( true ) );
+				},
+				bottom: function() {
+					return ( this.bottom = $( '#docs-footer' ).outerHeight( true ) );
+				},
+			}
+		} );
+
+
+		/**
+		 * prettyPhoto lightbox
+		 * -------------------------------------------------------------
+		 */
+
+		$( "a[rel^='prettyPhoto']" ).prettyPhoto( {
+			autoplay_slideshow: false,
+			opacity: 0.5,
+			show_title: false,
+			allow_resize: true,
+			theme: 'pp_default',
+			deeplinking: false,
+			social_tools: false,
+		} );
+
+	} );
+} )( jQuery );</code></pre>
+							</div>
+							<!-- end: content section -->
+
+						</div>
+						<!-- end: code highlighting (Prism) -->
+
+						<!-- credits -->
+						<div id="section-credits"><!-- * ID for navigation -->
+
+							<!-- content section -->
+							<div class="content-section">
+								<!-- title: -->
+								<h2 class="content-section-heading ta-center">Благодарности</h2>
+								<!-- ul: -->
+								<ul class="doc-list mb-none">
+									<li><a href="https://jquery.com/" target="_blank" rel="noopener noreferrer"><strong>jQuery (v1.12.4)</strong></a> - jQuery это быстрая, небольшая и многофункциональная JavaScript библиотека. jQuery значительно упрощает такие вещи, как обход и манипулирование документами HTML, обработку событий, анимацию и Ajax с помощью простого в использовании API, который работает во множестве браузеров. Благодаря сочетанию универсальности и расширяемости, jQuery изменил способ написания JavaScript миллионами людей.</li>
+									<li><a href="https://getbootstrap.com/docs/3.4/" target="_blank" rel="noopener noreferrer"><strong>Bootstrap (v3.4.1)</strong></a> - Bootstrap это самый популярный HTML, CSS и JS фреймворк для разработки адаптивных мобильных проектов в Интернете.</li>
+									<li><a href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener noreferrer"><strong>Font Awesome (v4.7.0)</strong></a> - Font Awesome это интернет-библиотека иконок и инструментарий, которым пользуются миллионы дизайнеров, разработчиков и создателей контента.</li>
+									<li><a href="https://github.com/scaron/prettyphoto" target="_blank" rel="noopener noreferrer"><strong>prettyPhoto (v3.1.6)</strong></a> - prettyPhoto это лайтбокс на основе jQuery. Он не только поддерживает изображения, но и поддерживает видео, flash, YouTube и iFrames. Это полноценный медиа-лайтбокс. Установка проста и быстра, плюс скрипт совместим со всеми основными браузерами.</li>
+									<li><a href="https://prismjs.com/" target="_blank" rel="noopener noreferrer"><strong>PrismJS (v1.29.0)</strong></a> - Prism это лёгкая расширяемая подсветка синтаксиса, созданная с учетом современных веб-стандартов.</li>
+									<li><a href="https://github.com/aFarkas/html5shiv" target="_blank" rel="noopener noreferrer"><strong>html5shiv.js (v3.7.3)</strong></a> от <a href="https://github.com/aFarkas" target="_blank" rel="noopener noreferrer"><strong>Alexander Farkas</strong></a> - HTML5 Shiv позволяет использовать элементы секционирования HTML5 в устаревшем Internet Explorer и обеспечивает основные стили HTML5 для Internet Explorer 6-9, Safari 4.x (и iPhone 3.x) и Firefox 3.x.</li>
+									<li><a href="https://github.com/scottjehl/Respond" target="_blank" rel="noopener noreferrer"><strong>Respond.js (v1.4.2)</strong></a> от <a href="https://github.com/scottjehl" target="_blank" rel="noopener noreferrer"><strong>Scott Jehl</strong></a> - Быстрый и лёгкий полифил для CSS3 медиа-запросов минимальной и максимальной ширины (для IE 6-8 и более). <em>* Заметка: Полифил - это фрагмент кода (обычно JavaScript), который позволяет использовать современную функциональность в более старых браузерах, которые не поддерживают ее по умолчанию.</em></li>
+									<li><a href="https://fonts.google.com/" target="_blank" rel="noopener noreferrer"><strong>Google Fonts</strong></a> - <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank" rel="noopener noreferrer">Open Sans</a>.</li>
+								</ul>
+							</div>
+							<!-- end: content section -->
+
+						</div>
+						<!-- end: credits -->
+
+						<!-- simple notification: -->
+						<div class="alert alert-success mt-65 mb-65" role="alert">
+							Как я писал в начале, не стесняйтесь использовать этот шаблон для создания своих документаций к вашим проектам. И большое вам спасибо за проявленный интерес и внимание! Я искренне надеюсь, что этот шаблон пригодится вам и сохранит вам немного времени. Желаю удачи в ваших новых проектах ;) С уважением, Алексей.
+						</div>
+
+						<!-- ================= MAIN CONTENT ENDS HERE ================= -->
+
+					</div><!-- /.content -->
+				</div>
+				<!-- end: documentation content -->
+
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end: content -->
+
+<!-- footer -->
+<footer id="docs-footer">
+	<div class="container">
+		<div class="docs-footer-container">
+			<p><i class="fa fa-copyright"></i> Шаблон документации / Создано с <i class="fa fa-heart-o"></i> <strong>Любовью</strong> в 2022 / Автор: <a href="https://minimalweb.net/" target="_blank" rel="noopener noreferrer">Алексей Трофимов</a></p>
+		</div>
+	</div>
+</footer>
+<!-- end: footer -->
+
+<!-- JS files
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.min.js?ver=1.12.4"></script>
+<script src="assets/js/bootstrap.min.js?ver=3.4.1"></script>
+<script src="assets/js/ie10-viewport-bug-workaround.js?ver=3.4.1"></script>
+<script src="assets/plugins/prettyPhoto/js/jquery.prettyPhoto.js?ver=3.1.6"></script>
+<script src="assets/js/prism.js?ver=1.29.0"></script>
+<script src="assets/js/documentation.js?ver=1.0.0"></script>
+</body>
+</html>
