@@ -1,4 +1,5 @@
 /**
+ * Documentation: Main js file
  * documentation.js v1.0
  */
 
